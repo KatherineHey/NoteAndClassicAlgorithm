@@ -1,3 +1,4 @@
+```
 class StreamChecker {
     class TrieNode {
         boolean isRoot;
@@ -48,3 +49,4 @@ class StreamChecker {
  * StreamChecker obj = new StreamChecker(words);
  * boolean param_1 = obj.query(letter);
  */
+ ```
