@@ -1,3 +1,4 @@
+```
 package graph;
 
 import java.util.PriorityQueue;
@@ -82,3 +83,5 @@ public class MST_Kruskal {
         System.out.println(mk.minCostConnectPoints(points));
     }
 }
+
+```
