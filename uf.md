@@ -1,6 +1,6 @@
 # Union Find
 
-```text
+```java
 package UnionFind;
 
 import java.util.HashMap;
