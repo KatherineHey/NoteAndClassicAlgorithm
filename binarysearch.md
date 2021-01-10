@@ -2,7 +2,7 @@
 
 find m that f\(m\) is true. Or return the smallest number l such that g\(l\) is true.
 
-```text
+```java
 def binary_search(l, r):
   while l < r:
     m = l + (r - l) // 2
@@ -42,7 +42,7 @@ def sqrt(x):
 
 套用模版：f\(m\) 没有，g\(m\) = m  _m &gt; x。 循环结束后l为最小的数满足 l_  l &gt; x，第一个平方大于x的整数。所以sqrt\(x\) = l - 1，最后返回 l - 1。
 
-```text
+```java
 // first find the peek of the mountain
         int len = mountainArr.length();
         int l = 0 ; int r = len - 1;
