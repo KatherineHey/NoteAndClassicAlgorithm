@@ -1,3 +1,4 @@
+```
 package UnionFind;
 
 import java.util.HashMap;
@@ -66,3 +67,4 @@ public class UF {
         }
     }
 }
+```
