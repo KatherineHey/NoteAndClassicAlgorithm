@@ -1,6 +1,6 @@
 # MST\_Kruskal
 
-```text
+```java
 package graph;
 
 import java.util.PriorityQueue;
