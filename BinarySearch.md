@@ -1,6 +1,7 @@
 # find m that f(m) is true.
 # Or return the smallest number l such that g(l) is true.
 
+```
 def binary_search(l, r):
   while l < r:
     m = l + (r - l) // 2
@@ -11,7 +12,7 @@ def binary_search(l, r):
       l = m + 1 # new range [m+1, r)
 
   return l # or not found
-
+```
 
 f(m) 函数：判断m是不是当前的解。
 g(m) 函数：判断解是不是 >= m。
@@ -32,7 +33,7 @@ sqrt(8) = 2
 sqrt(x)的取值范围在 [0, x] 之间，所以l=0, r = x + 1, 搜索范围 [0, x + 1)。
 
 
-
+```
 def sqrt(x):
   l = 0
   r = x + 1
@@ -45,11 +46,12 @@ def sqrt(x):
       l = m + 1
 
   return l - 1
+```
 
 套用模版：f(m) 没有，g(m) = m * m > x。
 循环结束后l为最小的数满足 l * l > x，第一个平方大于x的整数。所以sqrt(x) = l - 1，最后返回 l - 1。
 
-
+```
 // first find the peek of the mountain
         int len = mountainArr.length();
         int l = 0 ; int r = len - 1;
@@ -63,3 +65,4 @@ def sqrt(x):
         }
         
         int peak = l;
+```
