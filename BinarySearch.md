@@ -1,5 +1,5 @@
-# find m that f(m) is true.
-# Or return the smallest number l such that g(l) is true.
+#
+find m that f(m) is true. Or return the smallest number l such that g(l) is true.
 
 ```
 def binary_search(l, r):
