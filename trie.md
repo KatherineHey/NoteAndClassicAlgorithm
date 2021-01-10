@@ -1,6 +1,6 @@
 # Trie
 
-```text
+```java
 class StreamChecker {
     class TrieNode {
         boolean isRoot;
