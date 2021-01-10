@@ -1,4 +1,8 @@
 # Table of contents
 
-* [Binary Search Model](README.md)
+* [NoteAndClassicAlgorithm](README.md)
+* [BinarySearch](binarysearch.md)
+* [MST\_Kruskal](mst_kruskal.md)
+* [Trie](trie.md)
+* [Union Find](uf.md)
 

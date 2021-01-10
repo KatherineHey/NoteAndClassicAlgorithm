@@ -1,4 +1,6 @@
-```
+# Union Find
+
+```text
 package UnionFind;
 
 import java.util.HashMap;
@@ -13,16 +15,16 @@ public class UF {
     public int minimumHammingDistance(int[] source, int[] target, int[][] allowedSwaps) {
         int n = source.length;
         int[] parent = new int[n];
-        
+
         // initialize the parent arr to -1
         for (int i = 0 ; i < n; i++) {
             parent[i] = i;
         }
-        
+
         for (int[] pair : allowedSwaps) {
             union(parent, pair[0], pair[1]);
         }
-        
+
         // <parent of the index, <number, count>>
         HashMap<Integer, HashMap<Integer, Integer>> pnc = new HashMap<Integer, HashMap<Integer, Integer>>();
         for (int i = 0; i < n; i++) {
@@ -33,7 +35,7 @@ public class UF {
             Map<Integer, Integer> store = pnc.get(root);
             store.put(num, store.getOrDefault(num, 0) + 1);
         }
-        
+
      // greedy fit the target, if not, diff++
         int res = 0;
         for (int i = 0; i < n; i++) {
@@ -48,7 +50,7 @@ public class UF {
 
         return res;
     }
-    
+
     public int find(int[] parent, int i) {
         if (parent[i] == i) {
             return i;
@@ -56,11 +58,11 @@ public class UF {
 
         return parent[i] = find(parent, parent[i]);
     }
-   
+
     public void union(int[] parent, int i, int j) {
         int i_ancestor = find(parent, i);
         int j_ancestor = find(parent, j);
-        
+
         if (i_ancestor != j_ancestor) {
             //totalUnionComponents--;
             parent[i_ancestor] = j_ancestor;
@@ -68,3 +70,4 @@ public class UF {
     }
 }
 ```
+
