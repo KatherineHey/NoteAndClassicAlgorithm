@@ -1,7 +1,3 @@
----
-description: graph
----
-
 # Union Find
 
 ```java
