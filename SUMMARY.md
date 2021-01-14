@@ -5,4 +5,5 @@
 * [MST\_Kruskal](mst_kruskal.md)
 * [Trie](trie.md)
 * [Union Find](uf.md)
+* [Bit manipulation](bit-manipulation.md)
 
