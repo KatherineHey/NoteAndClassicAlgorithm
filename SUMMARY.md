@@ -6,4 +6,5 @@
 * [Trie](trie.md)
 * [Union Find](uf.md)
 * [Bit manipulation](bit-manipulation.md)
+* [Java API](java-api.md)
 
