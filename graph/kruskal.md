@@ -2,7 +2,7 @@
 description: finds a minimum spanning forest of an undirected edge-weighted graph
 ---
 
-# Kruskal
+# Kruskal's algorithm
 
 \(From Wiki\)
 
