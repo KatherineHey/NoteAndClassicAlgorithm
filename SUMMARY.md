@@ -6,6 +6,7 @@
 * [Trie](trie.md)
 * [Graph](graph/README.md)
   * [Union Find](graph/union-find.md)
+  * [Kruskal](graph/kruskal.md)
   * [Dijkstra's algorithm](graph/dijkstras-algorithm.md)
 * [Bit manipulation](bit-manipulation.md)
 * [Java API](java-api/README.md)
