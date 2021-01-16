@@ -4,6 +4,7 @@
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
 * [Graph](graph/README.md)
+  * [DFS](graph/dfs.md)
   * [Union Find](graph/union-find.md)
   * [Kruskal's algorithm](graph/kruskal.md)
   * [Dijkstra's algorithm](graph/dijkstras-algorithm.md)
