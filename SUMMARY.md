@@ -2,7 +2,6 @@
 
 * [NoteAndClassicAlgorithm](README.md)
 * [BinarySearch](binarysearch.md)
-* [MST\_Kruskal](mst_kruskal.md)
 * [Trie](trie.md)
 * [Graph](graph/README.md)
   * [Union Find](graph/union-find.md)
