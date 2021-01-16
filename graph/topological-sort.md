@@ -2,10 +2,12 @@
 description: >-
   Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of
   vertices such that for every directed edge u v, vertex u comes before v in the
-  ordering. Topological Sorting for a graph is
+  ordering.
 ---
 
 # Topological Sort
+
+Topological sorting for Directed Acyclic Graph \(DAG\) is a linear ordering of vertices such that for every directed edge u v, vertex u comes before v in the ordering. Topological Sorting for a graph is not possible if the graph is not a DAG.
 
 ## DFS
 
@@ -24,7 +26,7 @@ In topological sorting, we use a temporary stack. We don’t print the vertex im
  =&gt; indegree\(u\) = 0 and outdegree\(v\) = 0
 
 **Algorithm:** Steps involved in finding the topological ordering of a DAG:  
- **Step-1:** Compute in-degree \(number of incoming edges\) for each of the vertex present in the DAG and initialize the count of visited nodes as 0.
+**Step-1:** Compute in-degree \(number of incoming edges\) for each of the vertex present in the DAG and initialize the count of visited nodes as 0.
 
 **Step-2:** Pick all the vertices with in-degree as 0 and add them into a queue \(Enqueue operation\)
 
