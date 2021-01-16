@@ -4,6 +4,7 @@
 * [BinarySearch](binarysearch.md)
 * [MST\_Kruskal](mst_kruskal.md)
 * [Trie](trie.md)
+* [Graph](graph.md)
 * [Union Find](uf.md)
 * [Bit manipulation](bit-manipulation.md)
 * [Java API](java-api/README.md)
