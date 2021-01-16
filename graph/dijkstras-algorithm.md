@@ -8,7 +8,7 @@ I probably can't provide a better explanation than wiki, so here is wiki :\)
 
 Note: 
 
-1. if you are looking for the shortest path from a to b, AND all the weights are non-negative, then you can end early as soon as you reach the target node b.
+1. if you are looking for the shortest path from a to b, **AND all the weights are non-negative**, then you can end early as soon as you reach the target node b.
 2. Dijkstra provides the shortest path with a **fixed starting node**. If you need minimum spanning tree, then Kruskal fits better.
 
 | Dijkstra's algorithm to find the shortest path between a and b. It picks the unvisited vertex with the lowest distance, calculates the distance through it to each unvisited neighbor, and updates the neighbor's distance if smaller. Mark visited \(set to red\) when done with neighbors. |
