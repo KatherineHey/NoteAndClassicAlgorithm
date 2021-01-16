@@ -40,7 +40,7 @@ def sqrt(x):
   return l - 1
 ```
 
-套用模版：f\(m\) 没有，g\(m\) = m  _m &gt; x。 循环结束后l为最小的数满足 l_  l &gt; x，第一个平方大于x的整数。所以sqrt\(x\) = l - 1，最后返回 l - 1。
+套用模版：f\(m\) 没有，g\(m\) = m _m &gt; x。 循环结束后l为最小的数满足 l_ l &gt; x，第一个平方大于x的整数。所以sqrt\(x\) = l - 1，最后返回 l - 1。
 
 ```java
 // first find the peek of the mountain
