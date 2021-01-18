@@ -7,5 +7,10 @@ String s = "haha";
 s.length();
 ```
 
+ArrayList to String array
 
+```java
+List<String> list = new ArrayList<String>();
+String[] a = list.toArray(new String[0]);
+```
 
