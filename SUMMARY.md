@@ -4,6 +4,7 @@
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
 * [Graph](graph/README.md)
+  * [Eulerian path](graph/eulerian-path.md)
   * [DFS](graph/dfs.md)
   * [Topological Sort](graph/topological-sort.md)
   * [Union Find](graph/union-find.md)
