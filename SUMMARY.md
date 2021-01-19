@@ -14,6 +14,7 @@
 * [Java API](java-api/README.md)
   * [Java static](java-api/java-static.md)
 * [System Design](system-design/README.md)
+  * [General Concepts](system-design/general-concepts.md)
   * [6 general steps](system-design/6-general-steps.md)
   * [Youtube/ Bilibili](system-design/youtube-bilibili.md)
 

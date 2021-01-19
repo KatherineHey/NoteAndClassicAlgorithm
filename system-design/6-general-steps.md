@@ -4,9 +4,18 @@
 
 **Step1. Clarify the requirements & Traffic size**
 
+1. 功能性需求
+2. 非功能性需求
+
+
+
 * \(Communication\) feature requirements
 * Traffic/ user size
 * Consistency/ Availability \(Scalable - low latency\)/ Partition Tolerance \(Fault Tolerance\)
+
+Note: 需要与面试官达成一致、设计重点的2、3 components
+
+
 
 **Step2. Capacity Estimation**
 
