@@ -4,7 +4,8 @@
 
 **Step1. Clarify the requirements & Traffic size**
 
-* Communication
+* \(Communication\) feature requirements
+* Traffic/ user size
 * Consistency/ Availability \(Scalable - low latency\)/ Partition Tolerance \(Fault Tolerance\)
 
 **Step2. Capacity Estimation**
