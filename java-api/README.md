@@ -14,3 +14,9 @@ List<String> list = new ArrayList<String>();
 String[] a = list.toArray(new String[0]);
 ```
 
+ComputeIfAvailable
+
+```java
+myMap.computeIfAbsent(MY_KEY, k -> new ArrayList<>()).add(value);
+```
+
