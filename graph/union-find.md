@@ -1,3 +1,7 @@
+---
+description: Find number of components in an undirected graph
+---
+
 # Union Find
 
 ```java
