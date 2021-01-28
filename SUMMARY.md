@@ -12,6 +12,7 @@
   * [Dijkstra's algorithm](graph/dijkstras-algorithm.md)
 * [Bit manipulation](bit-manipulation.md)
 * [Java API](java-api/README.md)
+  * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
   * [Java static](java-api/java-static.md)
 * [System Design](system-design/README.md)
   * [General Concepts](system-design/general-concepts.md)
