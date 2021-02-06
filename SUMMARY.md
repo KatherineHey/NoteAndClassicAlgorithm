@@ -18,5 +18,8 @@
   * [General Concepts](system-design/general-concepts.md)
   * [6 general steps](system-design/6-general-steps.md)
   * [Youtube/ Bilibili](system-design/youtube-bilibili.md)
-* [Dynamic Programming](dynamic-programming.md)
+* [Untitled](untitled-1.md)
+* [Dynamic Programming](dynamic-programming/README.md)
+  * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
+* [Untitled](untitled.md)
 
