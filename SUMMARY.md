@@ -11,6 +11,8 @@
   * [Kruskal's algorithm](graph/kruskal.md)
   * [Dijkstra's algorithm](graph/dijkstras-algorithm.md)
 * [Bit manipulation](bit-manipulation.md)
+* [Dynamic Programming](dynamic-programming/README.md)
+  * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
 * [Java API](java-api/README.md)
   * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
   * [Java static](java-api/java-static.md)
@@ -18,6 +20,4 @@
   * [General Concepts](system-design/general-concepts.md)
   * [6 general steps](system-design/6-general-steps.md)
   * [Youtube/ Bilibili](system-design/youtube-bilibili.md)
-* [Dynamic Programming](dynamic-programming/README.md)
-  * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
 
