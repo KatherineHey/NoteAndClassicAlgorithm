@@ -41,7 +41,7 @@ public int findTargetSumWays(int[] nums, int S) {
     }
 ```
 
-DP 2D -&gt; 1D with 2 arrays
+DP 2D -&gt; 1D with 2 arrays \(all based on  [OneSheep](https://leetcode.com/OneSheep) [https://leetcode.com/problems/target-sum/discuss/97334/Java-\(15-ms\)-C%2B%2B-\(3-ms\)-O\(ns\)-iterative-DP-solution-using-subset-sum-with-explanation](https://leetcode.com/problems/target-sum/discuss/97334/Java-%2815-ms%29-C%2B%2B-%283-ms%29-O%28ns%29-iterative-DP-solution-using-subset-sum-with-explanation)\)
 
 ```java
 		/*
