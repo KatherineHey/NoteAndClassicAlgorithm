@@ -12,6 +12,7 @@
   * [Dijkstra's algorithm](graph/dijkstras-algorithm.md)
 * [Bit manipulation](bit-manipulation.md)
 * [Dynamic Programming](dynamic-programming/README.md)
+  * [DP Pattern](dynamic-programming/dp-pattern.md)
   * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
 * [Java API](java-api/README.md)
   * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
