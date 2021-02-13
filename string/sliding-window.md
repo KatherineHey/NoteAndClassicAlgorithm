@@ -1,6 +1,10 @@
 # Sliding Window
 
-sliding window 两种套路解法
+sliding window
+
+题目特点: 连续的window，求最值
+
+两种套路解法
 
 
 
