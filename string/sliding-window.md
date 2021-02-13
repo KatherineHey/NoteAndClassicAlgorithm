@@ -134,3 +134,9 @@ public class MonotonicQueue {
 }
 ```
 
+套路 3
+
+例题：求最小sub数组拥有相同个数0,1
+
+把0 变成 -1 ， 讲 &lt;sum, idx&gt; 放入hashmap, 通过sum找之前是否见过。注意要先插入\(0,-1\) 相当于在开始之前已经见过0. 然后维护一个到目前为止的sum
+
