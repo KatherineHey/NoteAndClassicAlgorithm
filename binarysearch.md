@@ -5,7 +5,7 @@ find m that f\(m\) is true. Or return the smallest number l such that g\(l\) is 
 ```java
 def binary_search(l, r):
   while l < r:
-    m = l + (r - l) // 2
+    m = l + (r - l) / 2
     if f(m): return m # optional
     if g(m):
       r = m     # new range [l, m)
