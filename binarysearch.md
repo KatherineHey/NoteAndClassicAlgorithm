@@ -15,7 +15,7 @@ def binary_search(left, right):
     else:
       left = mid + 1 
 
-  return l # or not found
+  return left
 ```
 
 f\(mid\) 函数：判断mid是不是当前的解。 condition\(mid\) 函数：判断解是不是 &gt;= mid。
