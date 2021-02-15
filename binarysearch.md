@@ -2,15 +2,18 @@
 
 find m that f\(mid\) is true. Or return the smallest number l such that condition\(left\) is true.
 
+ **Minimize k , s.t. condition\(k\) is True**
+
 ```java
 def binary_search(left, right):
   while left < right:
     mid = left + (right - left) / 2
     if f(mid): return mid // optional
+    
     if condition(mid):
-      right = mid     // new range [l, m)
+      right = mid     
     else:
-      left = mid + 1 // new range [m+1, r)
+      left = mid + 1 
 
   return l # or not found
 ```
@@ -18,8 +21,6 @@ def binary_search(left, right):
 f\(mid\) 函数：判断mid是不是当前的解。 condition\(mid\) 函数：判断解是不是 &gt;= mid。
 
 f\(mid\) 是可选的，如果找到解，直接返回解。没有f\(mid\)也可以。 **如果省略f\(mid\)，那么循环结束后left存储是最小的能满足condition\(left\) = true 的数。**
-
-如果left == right，则表示没有解。
 
 
 
