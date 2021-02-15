@@ -28,7 +28,7 @@ f\(mid\) 是可选的，如果找到解，直接返回解。没有f\(mid\)也可
 * Decide return value. Is it `return left` or `return left - 1`? Remember this: **after exiting the while loop, `left` is the minimal k​ satisfying the `condition` function**;
 * Design the `condition` function. This is the most difficult and most beautiful part. Needs lots of practice.
 
-
+ As for the question "When can we use binary search?", my answer is that, **If we can discover some kind of monotonicity, for example, if `condition(k) is True` then `condition(k + 1) is True`, then we can consider binary search**.
 
 
 
