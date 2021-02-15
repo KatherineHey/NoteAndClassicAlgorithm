@@ -6,11 +6,11 @@ find m that f\(m\) is true. Or return the smallest number l such that g\(l\) is 
 def binary_search(l, r):
   while l < r:
     m = l + (r - l) / 2
-    if f(m): return m # optional
+    if f(m): return m // optional
     if g(m):
-      r = m     # new range [l, m)
+      r = m     // new range [l, m)
     else:
-      l = m + 1 # new range [m+1, r)
+      l = m + 1 // new range [m+1, r)
 
   return l # or not found
 ```
@@ -31,7 +31,7 @@ def sqrt(x):
   r = x + 1
 
   while l < r:
-    m = l + (r - l) // 2
+    m = l + (r - l) / 2
     if m * m > x
       r = m
     else
