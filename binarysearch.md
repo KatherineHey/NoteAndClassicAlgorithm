@@ -1,25 +1,35 @@
 # BinarySearch
 
-find m that f\(m\) is true. Or return the smallest number l such that g\(l\) is true.
+find m that f\(mid\) is true. Or return the smallest number l such that condition\(left\) is true.
 
 ```java
-def binary_search(l, r):
-  while l < r:
-    m = l + (r - l) / 2
-    if f(m): return m // optional
-    if g(m):
-      r = m     // new range [l, m)
+def binary_search(left, right):
+  while left < right:
+    mid = left + (right - left) / 2
+    if f(mid): return mid // optional
+    if condition(mid):
+      right = mid     // new range [l, m)
     else:
-      l = m + 1 // new range [m+1, r)
+      left = mid + 1 // new range [m+1, r)
 
   return l # or not found
 ```
 
-f\(m\) 函数：判断m是不是当前的解。 g\(m\) 函数：判断解是不是 &gt;= m。
+f\(mid\) 函数：判断mid是不是当前的解。 condition\(mid\) 函数：判断解是不是 &gt;= mid。
 
-f\(m\) 是可选的，如果找到解，直接返回解。没有f\(m\)也可以。 **如果省略f\(m\)，那么循环结束后l存储是最小的能满足g\(l\) = true 的数。**
+f\(mid\) 是可选的，如果找到解，直接返回解。没有f\(mid\)也可以。 **如果省略f\(mid\)，那么循环结束后left存储是最小的能满足condition\(left\) = true 的数。**
 
-如果l == r，则表示没有解。
+如果left == right，则表示没有解。
+
+
+
+* Correctly initialize the boundary variables `left` and `right` to specify search space. Only one rule: set up the boundary to **include all possible elements**;
+* Decide return value. Is it `return left` or `return left - 1`? Remember this: **after exiting the while loop, `left` is the minimal k​ satisfying the `condition` function**;
+* Design the `condition` function. This is the most difficult and most beautiful part. Needs lots of practice.
+
+
+
+
 
 例子：sqrt\(x\), 返回x开根号后的整数部分。 样例： sqrt\(4\) = 2 sqrt\(8\) = 2
 
