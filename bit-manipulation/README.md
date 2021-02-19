@@ -4,6 +4,19 @@
 
 At the heart of bit manipulation are the bit-wise operators & \(and\), \| \(or\), ~ \(not\) and ^ \(exclusive-or, xor\) and shift operators a &lt;&lt; b and a &gt;&gt; b.
 
+* Set union A \| B
+* Set intersection A & B
+* Set subtraction A & ~B
+* Set negation ALL\_BITS ^ A or ~A
+* Set bit A \|= 1 &lt;&lt; bit
+* Clear bit A &= ~\(1 &lt;&lt; bit\)
+* Test bit \(A & 1 &lt;&lt; bit\) != 0
+* Extract last bit A&-A or A&~\(A-1\) or x^\(x&\(x-1\)\)
+* Remove last bit 1: A&\(A-1\)
+* Get all 1-bits ~0
+
+
+
 常用技巧：
 
 （1）n & （n-1）能够消灭n中最右侧的一个1。
