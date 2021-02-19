@@ -1,5 +1,9 @@
 # Bit manipulation
 
+**Basics**
+
+At the heart of bit manipulation are the bit-wise operators & \(and\), \| \(or\), ~ \(not\) and ^ \(exclusive-or, xor\) and shift operators a &lt;&lt; b and a &gt;&gt; b.
+
 常用技巧：
 
 （1）n & （n-1）能够消灭n中最右侧的一个1。
