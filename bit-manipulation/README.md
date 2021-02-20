@@ -24,6 +24,8 @@ Remove last bit 1: A&\(A-1\)
 
 Get all 1-bits ~0
 
+XOR operation.  a^b^b =a
+
 
 
 补码= 反码+1
