@@ -18,7 +18,7 @@ Clear bit A &= ~\(1 &lt;&lt; bit\)
 
 Test bit \(A & 1 &lt;&lt; bit\) != 0
 
-**Extract last bit A&-A or A&~\(A-1\) or x^\(x&\(x-1\)\)**
+**Extract last bit A&-A or A&~\(A-1\) or x^\(x&\(x-1\)\)     补码\(-A\)= 反码+1**
 
 **Remove last bit 1: A&\(A-1\)**
 
@@ -28,7 +28,7 @@ Get all 1-bits ~0
 
 
 
-补码= 反码+1
+**补码= 反码+1**
 
 "~" NOT operation, for example, ~2\(0010\) =&gt; -3 \(1101\) what??? Don't get frustrated here. It's called two's complement.
 
