@@ -12,7 +12,7 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
 
 **Note** that the same word in the dictionary may be reused multiple times in the segmentation.
 
-**Example 1:**
+**Example:**
 
 ```text
 Input: s = "leetcode", wordDict = ["leet","code"]
@@ -67,6 +67,27 @@ private boolean dfs(String s, int index, Set<String> dict, Set<Integer> set){
     }
     set.add(index);
     return false;
+}
+```
+
+Word break II: get all the sequences from words in the dictionary
+
+```java
+public List<String> wordBreak(String s, List<String> wordDict) {
+    return backtrack(s,wordDict,new HashMap<String, List<String>>());
+}
+// backtrack returns an array including all substrings derived from s.
+public List<String> backtrack(String s, List<String> wordDict, Map<String,List<String>> mem){
+    if(mem.containsKey(s)) return mem.get(s);
+    List<String> result = new ArrayList<String>();
+    for(String word: wordDict)
+        if(s.startsWith(word)) {
+            String next = s.substring(word.length());
+            if(next.length()==0) result.add(word);
+            else for(String sub: backtrack(next, wordDict, mem)) result.add(word+" "+sub);
+        }
+    mem.put(s, result);
+    return result;
 }
 ```
 
