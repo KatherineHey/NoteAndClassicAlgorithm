@@ -70,7 +70,7 @@ private boolean dfs(String s, int index, Set<String> dict, Set<Integer> set){
 }
 ```
 
-Word break II: get all the sequences from words in the dictionary
+140. Word break II: get all the sequences from words in the dictionary
 
 ```java
 public List<String> wordBreak(String s, List<String> wordDict) {
