@@ -14,6 +14,7 @@
   * [Sliding Window](string/sliding-window.md)
 * [Recursion and Backtracking](untitled/README.md)
   * [Permutations](untitled/permutations.md)
+  * [Word break \(DFS VS DP\)](untitled/word-break-dfs-vs-dp.md)
 * [Bit manipulation](bit-manipulation/README.md)
   * [Bit examples](bit-manipulation/bit-examples.md)
 * [Dynamic Programming](dynamic-programming/README.md)
