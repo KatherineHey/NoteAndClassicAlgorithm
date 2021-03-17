@@ -10,6 +10,7 @@
   * [Union Find](graph/union-find.md)
   * [Kruskal's algorithm](graph/kruskal.md)
   * [Dijkstra's algorithm](graph/dijkstras-algorithm.md)
+  * [Question with Dijkstra and DFS](graph/question-with-dijkstra-and-dfs.md)
 * [String](string/README.md)
   * [Sliding Window](string/sliding-window.md)
 * [Recursion and Backtracking](untitled/README.md)
