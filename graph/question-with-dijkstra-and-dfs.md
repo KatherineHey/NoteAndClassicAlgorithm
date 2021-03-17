@@ -34,12 +34,12 @@ public int countRestrictedPaths(int n, int[][] edges) {
             int[] cur = minHeap.poll();
             int d = cur[0];
             int u = cur[1];
-            if (d != dist[u]) continue; // dijstra looks for the shortest edge in unvisited vertex
+            if (d != dist[u]) continue; // !!!dijstra looks for the shortest edge in unvisited vertex
             
             for (int[] neighbor: graph[u]) {
                 int w = neighbor[0];
                 int v = neighbor[1];
-                if (dist[v] > w+dist[u]) {
+                if (dist[v] > w+dist[u]) { //!!!
                     dist[v] = w+dist[u];
                     minHeap.offer(new int[] {dist[v], v});
                 }
