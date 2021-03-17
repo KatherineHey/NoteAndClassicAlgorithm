@@ -3,6 +3,8 @@
 * [NoteAndClassicAlgorithm](README.md)
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
+* [Tree](tree/README.md)
+  * [InOrder](tree/inorder.md)
 * [Graph](graph/README.md)
   * [Eulerian path](graph/eulerian-path.md)
   * [DFS](graph/dfs.md)
