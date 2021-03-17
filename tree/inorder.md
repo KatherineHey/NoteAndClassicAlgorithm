@@ -1,5 +1,7 @@
 ---
-description: Inorder traversal of a BST gives us a sorted order of the items in it
+description: >-
+  Inorder traversal of a BST gives us a sorted order of the items in it (left,
+  middle, right)
 ---
 
 # InOrder
