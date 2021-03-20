@@ -15,7 +15,7 @@ In topological sorting, we use a temporary stack. We don’t print the vertex im
 
  **Time Complexity:** O\(V+E\). 
 
-![illustration of DFS in topological sorting](../.gitbook/assets/image.png)
+![illustration of DFS in topological sorting](../../.gitbook/assets/image.png)
 
 ## Kahn's
 
