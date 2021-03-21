@@ -86,6 +86,7 @@ public int maxValue(int n, int index, int maxSum) {
         else
             right = mid - 1;
     }
+    
     return left + 1;
 }
 
