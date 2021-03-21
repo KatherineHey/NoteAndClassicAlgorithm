@@ -71,7 +71,7 @@ def sqrt(x):
 
 
 
-Another example to find the largest l that condition is true
+Another example to find the **largest** l that condition is true
 
 1802 Maximum Value at a Given Index in a Bounded Array
 
