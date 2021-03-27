@@ -13,7 +13,7 @@
   * [Union Find](graph/union-find.md)
   * [Dijkstra's algorithm 两点之间最短路径](graph/dijkstras-algorithm/README.md)
     * [Show me the code :\)](graph/dijkstras-algorithm/show-me-the-code.md)
-  * [Kruskal's algorithm](graph/kruskal.md)
+  * [Kruskal's algorithm 最小生成树](graph/kruskal.md)
 * [String](string/README.md)
   * [Sliding Window](string/sliding-window.md)
 * [Recursion and Backtracking](untitled/README.md)
