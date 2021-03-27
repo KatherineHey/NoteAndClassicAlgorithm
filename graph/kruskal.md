@@ -8,7 +8,7 @@ description: finds a minimum spanning forest of an undirected edge-weighted grap
 
 Kruskal's algorithm finds a minimum spanning forest of an **undirected** edge-weighted graph. If the grap is connected, it finds a minimum spanning tree. \(A minimum spanning tree of a connected graph is a subset of the edges that forms a tree that includes every vertext, where the sum of the weights of all the edges in the tree is minimized. For a disconnected graph, a minimum spanning forest is composed of a minimum spanning tree for each connected component.\) **It is a greedy algorithm in graph theory as in each step it adds the next lowest-weight edge that will not form a cycle to the minimum spanning forest.** 
 
-按照边的权重顺序（从小到大）将边加入生成树中，但是若加入该边会与生成树形成环则不加入该边。直到树中含有![V-1](https://wikimedia.org/api/rest_v1/media/math/render/svg/cf99922c8908cda9655d87b4a60c0cf3923e0e12)条边为止。这些边组成的就是该图的最小生成树。
+**按照边的权重顺序（从小到大）将边加入生成树中，但是若加入该边会与生成树形成环则不加入该边。直到树中含有**![V-1](https://wikimedia.org/api/rest_v1/media/math/render/svg/cf99922c8908cda9655d87b4a60c0cf3923e0e12)**条边为止。这些边组成的就是该图的最小生成树。**
 
 Kruskal算法的时间复杂度为![{\displaystyle E\log E}](https://wikimedia.org/api/rest_v1/media/math/render/svg/1971d0e6bebcf6b64efc398cef3219c6c8e87ff3)。
 
