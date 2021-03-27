@@ -2,7 +2,7 @@
 description: finds a minimum spanning forest of an undirected edge-weighted graph
 ---
 
-# Kruskal's algorithm 最小生成树
+# Kruskal's algorithm 最小生成树 \(Union Find\)
 
 \(From Wiki\)
 
