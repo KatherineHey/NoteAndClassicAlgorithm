@@ -8,7 +8,7 @@
 * [Graph](graph/README.md)
   * [Eulerian path](graph/eulerian-path.md)
   * [DFS](graph/dfs.md)
-  * [Topological Sort](graph/topological-sort/README.md)
+  * [Topological Sort \(DAG\)](graph/topological-sort/README.md)
     * [Show me the code :\)](graph/topological-sort/show-me-the-code.md)
   * [Union Find](graph/union-find.md)
   * [Kruskal's algorithm 最小生成树 \(Union Find\)](graph/kruskal.md)
