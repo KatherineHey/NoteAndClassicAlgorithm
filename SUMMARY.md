@@ -11,7 +11,7 @@
   * [Topological Sort](graph/topological-sort/README.md)
     * [Show me the code :\)](graph/topological-sort/show-me-the-code.md)
   * [Union Find](graph/union-find.md)
-  * [Dijkstra's algorithm](graph/dijkstras-algorithm/README.md)
+  * [Dijkstra's algorithm 两点之间最短路径](graph/dijkstras-algorithm/README.md)
     * [Show me the code :\)](graph/dijkstras-algorithm/show-me-the-code.md)
   * [Kruskal's algorithm](graph/kruskal.md)
 * [String](string/README.md)
