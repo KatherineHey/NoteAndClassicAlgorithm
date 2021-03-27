@@ -3,6 +3,8 @@
 Dijkstra's algorithm
 
 * V + ElogE - SSSP Single Source Shortest Path
+* detect cycles
+* does not handle negative
 * shortest path between 2 nodes
 * 从固定起点出发的最短路径树
 
