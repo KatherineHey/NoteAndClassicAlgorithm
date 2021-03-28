@@ -2,13 +2,8 @@
 
 Dijkstra's algorithm
 
-* V + ElogE - SSSP Single Source Shortest Path
-* detect cycles
-* does not handle negative
 * shortest path between 2 nodes
 * 从固定起点出发的最短路径树
-* * Dijkstra visits the nodes in order of **distance from the starting node** in asc order
-  * When you visit a node the first time, it's through the **shortest** path
 
 ```text
  1  function Dijkstra(Graph, source):
