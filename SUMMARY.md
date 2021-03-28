@@ -31,4 +31,5 @@
   * [General Concepts](system-design/general-concepts.md)
   * [6 general steps](system-design/6-general-steps.md)
   * [Youtube/ Bilibili](system-design/youtube-bilibili.md)
+* [Greedy](greedy.md)
 
