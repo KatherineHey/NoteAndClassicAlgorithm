@@ -27,6 +27,8 @@ public int countRestrictedPaths(int n, int[][] edges) {
         int[] dist = new int[n+1];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[n] = 0;
+        
+        // [weight, node]
         PriorityQueue<int[]> minHeap = new PriorityQueue<>(
             Comparator.comparingInt(a -> a[0]));
         minHeap.offer(new int[] {0, n});
