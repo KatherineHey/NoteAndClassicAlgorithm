@@ -4,6 +4,12 @@ description: Classical backtracking questions and code
 
 # Permutations
 
+**Module**
+
+1. Paths to take - 可选路径
+2. Change && change back - 修改状态 & 改回原有状态
+3. End condition - 结束条件
+
 
 
 Given an array `nums` of distinct integers, return _all the possible permutations_. You can return the answer in **any order**.
@@ -40,4 +46,8 @@ class Solution {
     }
 }
 ```
+
+
+
+Another sample question: 1079. Letter Tile Possibilities
 
