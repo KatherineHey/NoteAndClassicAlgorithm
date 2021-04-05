@@ -2,7 +2,7 @@
 description: Find the shortest path between two nodes.
 ---
 
-# Dijkstra's algorithm
+# Dijkstra's algorithm 两点之间最短路径
 
 I probably can't provide a better explanation than wiki, so here is wiki :\)
 
