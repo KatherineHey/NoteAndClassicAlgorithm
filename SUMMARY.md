@@ -22,6 +22,7 @@
 * [Bit manipulation](bit-manipulation/README.md)
   * [Bit examples](bit-manipulation/bit-examples.md)
 * [Dynamic Programming](dynamic-programming/README.md)
+  * [Question patterns](dynamic-programming/question-patterns.md)
   * [DP Pattern](dynamic-programming/dp-pattern.md)
   * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
 * [Java API](java-api/README.md)
