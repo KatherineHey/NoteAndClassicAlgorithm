@@ -1,2 +1,8 @@
 # NoteAndClassicAlgorithm
 
+TODO
+
+SentenceScreenFitting
+
+
+
