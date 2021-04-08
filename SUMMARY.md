@@ -24,6 +24,7 @@
 * [Dynamic Programming](dynamic-programming/README.md)
   * [Question patterns](dynamic-programming/question-patterns/README.md)
     * [Minimum \(Maximum\) Path to Reach a Target](dynamic-programming/question-patterns/minimum-maximum-path-to-reach-a-target.md)
+    * [Distinct ways](dynamic-programming/question-patterns/distinct-ways.md)
   * [DP Pattern](dynamic-programming/dp-pattern.md)
   * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
 * [Java API](java-api/README.md)
