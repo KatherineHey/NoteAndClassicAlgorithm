@@ -1,6 +1,8 @@
 # Table of contents
 
 * [NoteAndClassicAlgorithm](README.md)
+* [Data structures](data-structures/README.md)
+  * [Stack](data-structures/stack.md)
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
 * [Tree](tree/README.md)
