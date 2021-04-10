@@ -28,9 +28,15 @@ for(int l = 1; l<n; l++) {
 return dp[0][n-1];
 ```
 
-Example question:
+Example question: Guess Number Higher or Lower II
 
+We are playing the Guessing Game. The game will work as follows:
 
+1. I pick a number between `1` and `n`.
+2. You guess a number.
+3. If you guess the right number, **you win the game**.
+4. If you guess the wrong number, then I will tell you whether the number I picked is **higher or lower**, and you will continue guessing.
+5. Every time you guess a wrong number `x`, you will pay `x` dollars. If you run out of money, **you lose the game**.
 
 ```java
 class Solution {
