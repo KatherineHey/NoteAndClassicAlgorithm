@@ -1,5 +1,5 @@
 ---
-description: 单调递增stack
+description: 单调递增stack (aka. Mono stack)
 ---
 
 # Stack
