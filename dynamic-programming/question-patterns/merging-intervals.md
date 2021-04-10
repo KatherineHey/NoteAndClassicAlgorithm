@@ -28,3 +28,35 @@ for(int l = 1; l<n; l++) {
 return dp[0][n-1];
 ```
 
+Example question:
+
+
+
+```java
+class Solution {
+    int[][] dp;
+    public int getMoneyAmount(int n) {
+        dp = new int[n+1][n+1];
+        
+        return minCost(1, n);
+    }
+    
+    public int minCost(int lower, int upper) {
+        if (lower >= upper) return 0;
+        
+        if (dp[lower][upper] != 0) return dp[lower][upper];
+        
+        int maximum = Integer.MAX_VALUE;
+        
+        for (int i = lower; i <= upper; i++) {
+            maximum = Math.min(maximum,
+                Math.max(minCost(lower, i-1), minCost(i+1, upper)) + i);
+        }
+        
+        dp[lower][upper] = maximum;
+        
+        return maximum;
+    }
+}
+```
+
