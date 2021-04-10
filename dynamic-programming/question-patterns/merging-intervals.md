@@ -1,4 +1,4 @@
-# Merging Intervals
+# Merging Intervals/ Minimax
 
 #### Statement
 
