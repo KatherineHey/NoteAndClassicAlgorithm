@@ -1,3 +1,7 @@
+---
+description: N^3 (bottom up - can't understand.. memo!!)
+---
+
 # Merging Intervals/ Minimax
 
 #### Statement
