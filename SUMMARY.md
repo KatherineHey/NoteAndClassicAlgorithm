@@ -30,6 +30,7 @@
     * [Merging Intervals/ Minimax](dynamic-programming/question-patterns/merging-intervals.md)
   * [DP Pattern](dynamic-programming/dp-pattern.md)
   * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
+  * [DP on strings](dynamic-programming/dp-on-strings.md)
 * [Java API](java-api/README.md)
   * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
   * [Java static](java-api/java-static.md)
