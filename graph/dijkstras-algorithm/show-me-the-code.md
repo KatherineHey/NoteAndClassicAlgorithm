@@ -35,16 +35,11 @@ public int countRestrictedPaths(int n, int[][] edges) {
         
         while (!minHeap.isEmpty()) {
             int[] cur = minHeap.poll();
-            int distance = cur[0];
+            int d = cur[0];
             int u = cur[1];
             
             // !!!dijstra looks for the shortest edge in unvisited vertex
-            // https://cp-algorithms.com/graph/dijkstra_sparse.html
-            // Among these pairs we are only interested in the pairs 
-            // where the first element is equal to the corresponding
-            // value in d[],
-            // all the other pairs are old.
-            if (distance != dist[u]) continue; // > also works
+            if (d != dist[u]) continue; // > also works
             for (int[] neighbor: graph[u]) {
                 int w = neighbor[0];
                 int v = neighbor[1];

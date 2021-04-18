@@ -12,7 +12,7 @@ sliding window
 
 题目：
 
-76. Minimum Window SubstringHard
+76. Minimum Window Substring
 
 Given two strings `s` and `t`, return _the minimum window in `s` which will contain all the characters in `t`_. If there is no such window in `s` that covers all characters in `t`, return _the empty string `""`_.
 
