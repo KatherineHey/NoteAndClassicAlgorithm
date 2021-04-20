@@ -9,3 +9,7 @@
 for (TreeMap<Integer, PriorityQueue<Integer>> tm : m.values()) {
 ```
 
+LinkedHashMap
+
+insertion order
+
