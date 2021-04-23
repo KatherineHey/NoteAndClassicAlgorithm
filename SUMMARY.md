@@ -2,6 +2,7 @@
 
 * [NoteAndClassicAlgorithm](README.md)
 * [Data structures](data-structures/README.md)
+  * [LinkedList](data-structures/linkedlist.md)
   * [Stack](data-structures/stack.md)
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
