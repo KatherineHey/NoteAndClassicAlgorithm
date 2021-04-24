@@ -29,5 +29,13 @@ newNode.left = null
 firstNode = newNode
 ```
 
+insert at the third
 
+```text
+before = first.link.link
+new.left = before
+new.right = before.right
+before.right.left = new
+before.right = new
+```
 
