@@ -1,4 +1,4 @@
-# Circular, doubly linked list
+# Circular Josephus
 
 Josephus 
 
