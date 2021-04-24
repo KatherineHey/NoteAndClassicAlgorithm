@@ -2,7 +2,8 @@
 
 * [NoteAndClassicAlgorithm](README.md)
 * [Data structures](data-structures/README.md)
-  * [LinkedList](data-structures/linkedlist.md)
+  * [LinkedList](data-structures/linkedlist/README.md)
+    * [Floyd's Cycle Detection Algorithm](data-structures/linkedlist/floyds-cycle-detection-algorithm.md)
   * [Stack](data-structures/stack.md)
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
