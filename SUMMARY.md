@@ -3,6 +3,8 @@
 * [NoteAndClassicAlgorithm](README.md)
 * [Data structures](data-structures/README.md)
   * [LinkedList](data-structures/linkedlist/README.md)
+    * [Operations insert, delete, reverse](data-structures/linkedlist/operations-insert-delete-reverse.md)
+    * [Circular, doubly linked list](data-structures/linkedlist/circular-doubly-linked-list.md)
     * [Floyd's Cycle Detection Algorithm](data-structures/linkedlist/floyds-cycle-detection-algorithm.md)
   * [Stack](data-structures/stack.md)
 * [BinarySearch](binarysearch.md)
