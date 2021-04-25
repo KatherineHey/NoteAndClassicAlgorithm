@@ -7,6 +7,8 @@
     * [Circular Josephus](data-structures/linkedlist/circular-doubly-linked-list.md)
     * [Doubly linked list](data-structures/linkedlist/doubly-linked-list.md)
     * [Floyd's Cycle Detection Algorithm](data-structures/linkedlist/floyds-cycle-detection-algorithm.md)
+    * [LRU Cache](data-structures/linkedlist/lru-cache/README.md)
+      * [Show me the code :\)](data-structures/linkedlist/lru-cache/show-me-the-code.md)
   * [Stack](data-structures/stack.md)
 * [BinarySearch](binarysearch.md)
 * [Trie](trie.md)
