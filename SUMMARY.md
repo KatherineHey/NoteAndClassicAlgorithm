@@ -16,6 +16,7 @@
   * [InOrder](tree/inorder.md)
 * [Graph](graph/README.md)
   * [Eulerian path](graph/eulerian-path.md)
+  * [Cycle](graph/cycle.md)
   * [DFS](graph/dfs.md)
   * [Topological Sort \(DAG\)](graph/topological-sort/README.md)
     * [Show me the code :\)](graph/topological-sort/show-me-the-code.md)
