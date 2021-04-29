@@ -41,9 +41,11 @@ package graph;
 import java.util.PriorityQueue;
 
 /**
- * Kruskal's algorithm finds a minimum spanning forest of an undirected edge-weighted graph.
+ * Kruskal's algorithm finds a minimum spanning forest of 
+ * an undirected edge-weighted graph.
  * If the graph is connected, it finds a minimum spanning tree.
- * It is a greedy algorithm in graph theory as in each step it adds the next lowest-weight edge that will not 
+ * It is a greedy algorithm in graph theory as in each step it adds 
+ * the next lowest-weight edge that will not 
  * form a cycle to the minimum spanning forest
  * @author Katherine
  *
