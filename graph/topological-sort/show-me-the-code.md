@@ -33,7 +33,7 @@ public boolean canFinish(int n, int[][] prerequisites) {
         G[e[1]].add(e[0]);
         indegree[e[0]]++;
     }
-    for (int i = 0; i < n; ++i) if (degree[i] == 0) bfs.add(i);
+    for (int i = 0; i < n; ++i) if (indegree[i] == 0) bfs.add(i);
     for (int i = 0; i < bfs.size(); ++i)
         for (int j: G[bfs.get(i)])
             if (--indegree[j] == 0) bfs.add(j);
