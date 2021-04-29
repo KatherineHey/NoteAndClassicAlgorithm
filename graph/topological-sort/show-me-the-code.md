@@ -76,7 +76,9 @@ private boolean dfs(int course, List<List<Integer>> courses, int[] visited) {
     for(int i=0; i<eligibleCourses.size(); i++) {
         int eligibleCourse = eligibleCourses.get(i).intValue();
         
-        if(visited[eligibleCourse] == 1) return false; // has been visited while visiting its children - cycle !!!!
+        // has been visited while visiting its children - cycle !!!!     
+        if(visited[eligibleCourse] == 1) return false; 
+   
         if(visited[eligibleCourse]  == 0) { // not visited
            if (!dfs(eligibleCourse,courses, visited)) return false; 
         }
