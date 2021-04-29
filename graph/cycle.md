@@ -29,3 +29,9 @@ public boolean hasCycle(Vertex sourceVertex) {
 }
 ```
 
+Undirected graph
+
+I. union find
+
+II. dfs - pass in the parent node, then pick next vertex from neighbors who are not parent/ from node, keep a hashset for visited node, if then we run into any nodes that already exist in visited node hashset, then there's a cycle
+

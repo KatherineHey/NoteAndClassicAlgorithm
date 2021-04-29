@@ -19,7 +19,7 @@ In topological sorting, we use a temporary stack. We don’t print the vertex im
 
 ## Kahn's
 
-
+BFS
 
 **A DAG G has at least one vertex with in-degree 0 and one vertex with out-degree 0**.  
 **Proof:** There’s a simple proof to the above fact is that a DAG does not contain a cycle which means that all paths will be of finite length. Now let S be the longest path from u\(source\) to v\(destination\). Since S is the longest path there can be no incoming edge to u and no outgoing edge from v, if this situation had occurred then S would not have been the longest path  
