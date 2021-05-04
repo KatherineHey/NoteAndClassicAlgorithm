@@ -11,6 +11,7 @@
       * [Show me the code :\)](data-structures/linkedlist/lru-cache/show-me-the-code.md)
   * [Stack](data-structures/stack.md)
 * [BinarySearch](binarysearch.md)
+* [Hash](hash.md)
 * [Trie](trie.md)
 * [Tree](tree/README.md)
   * [InOrder](tree/inorder.md)
