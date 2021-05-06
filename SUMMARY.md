@@ -10,6 +10,7 @@
     * [LRU Cache](data-structures/linkedlist/lru-cache/README.md)
       * [Show me the code :\)](data-structures/linkedlist/lru-cache/show-me-the-code.md)
   * [Stack](data-structures/stack.md)
+  * [Binary Indexed Tree](data-structures/binary-indexed-tree.md)
 * [BinarySearch](binarysearch.md)
 * [Hash](hash.md)
 * [Trie](trie.md)
