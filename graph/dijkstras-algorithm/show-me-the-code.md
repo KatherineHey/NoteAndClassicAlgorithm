@@ -17,13 +17,13 @@ public int countRestrictedPaths(int n, int[][] edges) {
             graph[e[1]].add(new int[] {e[2], e[0]});
         }
         
-        int[] dist = dijstra(n, graph);
+        int[] dist = dijkstra(n, graph);
         
         return dfs(1, n, graph, dist, new Integer[n+1]);
     }
     
     // find shortest path from last node to others
-    public int[] dijstra(int n, List<int[]>[] graph) {
+    public int[] dijkstra(int n, List<int[]>[] graph) {
         int[] dist = new int[n+1];
         Arrays.fill(dist, Integer.MAX_VALUE);
         dist[n] = 0;
@@ -36,9 +36,9 @@ public int countRestrictedPaths(int n, int[][] edges) {
         while (!minHeap.isEmpty()) {
             int[] cur = minHeap.poll();
             int distance = cur[0];
-            int u = cur[1];
+            int u = cur[1]; // If there's a visited node list, mark this as visited here
             
-            // !!!dijstra looks for the shortest edge in unvisited vertex
+            // !!!dijkstra looks for the shortest edge in unvisited vertex
             // https://cp-algorithms.com/graph/dijkstra_sparse.html
             // Among these pairs we are only interested in the pairs 
             // where the first element is equal to the corresponding
