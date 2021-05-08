@@ -116,7 +116,7 @@ Each time we only do one of the two:
 
 Doing so will maintain the tails invariant. The the final answer is just the size.
 
-**Java**
+**Java \(binary search to find the ceiling: i/ left is the ceiling\)**
 
 ```text
 public int lengthOfLIS(int[] nums) {
