@@ -20,6 +20,10 @@ Test bit \(A & 1 &lt;&lt; bit\) != 0
 
 **Extract last bit A&-A or A&~\(A-1\) or x^\(x&\(x-1\)\)     补码\(-A\)= 反码+1**
 
+```java
+Integer.lowestOneBit(i);
+```
+
 **Remove last bit 1: A&\(A-1\)**
 
 Get all 1-bits ~0
