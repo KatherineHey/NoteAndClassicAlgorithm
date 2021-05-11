@@ -35,6 +35,8 @@
 * [Bit manipulation](bit-manipulation/README.md)
   * [Bit examples](bit-manipulation/bit-examples.md)
 * [Dynamic Programming](dynamic-programming/README.md)
+  * [Classical questions](dynamic-programming/classical-questions/README.md)
+    * [Longest increasing subsequence LIS](dynamic-programming/classical-questions/longest-increasing-subsequence-lis.md)
   * [Question patterns](dynamic-programming/question-patterns/README.md)
     * [Minimum \(Maximum\) Path to Reach a Target](dynamic-programming/question-patterns/minimum-maximum-path-to-reach-a-target.md)
     * [Distinct ways](dynamic-programming/question-patterns/distinct-ways.md)
