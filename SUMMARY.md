@@ -32,6 +32,7 @@
 * [Recursion and Backtracking](untitled/README.md)
   * [Permutations](untitled/permutations.md)
   * [Word break \(DFS VS DP\)](untitled/word-break-dfs-vs-dp.md)
+  * [Partition to K Equal Sum Subsets](untitled/partition-to-k-equal-sum-subsets.md)
 * [Bit manipulation](bit-manipulation/README.md)
   * [Bit examples](bit-manipulation/bit-examples.md)
 * [Dynamic Programming](dynamic-programming/README.md)
