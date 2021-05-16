@@ -50,6 +50,7 @@
     * [Merging Intervals/ Minimax](dynamic-programming/question-patterns/merging-intervals.md)
   * [DP Pattern](dynamic-programming/dp-pattern.md)
   * [0-1 Knapsack problem](dynamic-programming/0-1-knapsack-problem.md)
+  * [Complete Knapsack problem](dynamic-programming/complete-knapsack-problem.md)
   * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
   * [DP on strings](dynamic-programming/dp-on-strings.md)
   * [Decision Making](dynamic-programming/decision-making.md)
