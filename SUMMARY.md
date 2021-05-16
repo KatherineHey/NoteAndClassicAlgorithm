@@ -42,6 +42,7 @@
     * [Minimax](dynamic-programming/classical-questions/minimax/README.md)
       * [Guess Number Higher or Lower II](dynamic-programming/classical-questions/minimax/guess-number-higher-or-lower-ii.md)
       * [Predict the winner](dynamic-programming/classical-questions/minimax/predict-the-winner.md)
+      * [Can i win](dynamic-programming/classical-questions/minimax/can-i-win.md)
   * [Question patterns](dynamic-programming/question-patterns/README.md)
     * [Minimum \(Maximum\) Path to Reach a Target](dynamic-programming/question-patterns/minimum-maximum-path-to-reach-a-target.md)
     * [Distinct ways](dynamic-programming/question-patterns/distinct-ways.md)
