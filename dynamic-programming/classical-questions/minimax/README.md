@@ -1,5 +1,5 @@
 ---
-description: '"Game Playing"  "Game Playing"'
+description: '"Game Playing"  top-down DP'
 ---
 
 # Minimax
