@@ -29,9 +29,9 @@ public boolean PredictTheWinner(int[] nums) {
 
         for(int j = 0; j < n; j++){
             for(int i = j - 1; i >= 0; i--){
-            	int a = (i + 1 < n && j - 1 >= 0) ? dp[i + 1][j - 1] : 0;
-		int b = (i + 2 < n) ? dp[i + 2][ j] : 0;
-		int c = (j - 2 >= 0) ? dp[i][j - 2] : 0;
+                int a = (i + 1 < n && j - 1 >= 0) ? dp[i + 1][j - 1] : 0;
+		            int b = (i + 2 < n) ? dp[i + 2][ j] : 0;
+            		int c = (j - 2 >= 0) ? dp[i][j - 2] : 0;
                 dp[i][j] = Math.max(Math.min(a, b) + nums[i], Math.min(a, c) + nums[j]);
             }
         }
