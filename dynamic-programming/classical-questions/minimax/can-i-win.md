@@ -25,7 +25,7 @@ public boolean canIWin(int maxChoosableInteger, int desiredTotal, int state, Has
         return statesResult.get(state);
     
     for (int i=1; i <= maxChoosableInteger; i++) {
-        if ((state & (1<<i)) == 1) continue; // number i already used
+        if ((state & (1<<i)) != 0) continue; // number i already used
         
         // whoever reaches next level cannot win, therefore current level can win
         if (desiredTotal <= i || !canIWin(maxChoosableInteger, desiredTotal - i, state | (1<<i), statesResult)) {
