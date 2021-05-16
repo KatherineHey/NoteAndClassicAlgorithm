@@ -30,6 +30,8 @@ Get all 1-bits ~0
 
 **XOR operation.  a^b^b =a**
 
+![](../.gitbook/assets/image%20%284%29.png)
+
 ![](../.gitbook/assets/image%20%283%29.png)
 
 
