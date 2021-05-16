@@ -96,5 +96,9 @@ public boolean canPartition(int[] nums) {
 
 ![](../.gitbook/assets/image%20%286%29.png)
 
+![](../.gitbook/assets/image%20%288%29.png)
+
+**第二层循环的顺序0-1区别于complete knapsack的原因**
+
 ![](../.gitbook/assets/image%20%287%29.png)
 
