@@ -34,6 +34,10 @@ Get all 1-bits ~0
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
+=&gt; 
+
+Number of ways to choose elements with ith bit set = kC1 + kC3 + kC5 …. = 2\(k-1\)
+
 
 
 **补码= 反码+1**
