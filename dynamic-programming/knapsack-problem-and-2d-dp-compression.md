@@ -19,11 +19,13 @@ public int findTargetSumWays(int[] nums, int S) {
         
         int target = (sum + S) /2;
         
-        // Where dp is 2-d array with dp[i][j] means number of ways to get sum j with first i elements from nums.
+        // Where dp is 2-d array with dp[i][j] means number of ways to get sum j 
+        // with first i elements from nums.
         /*
-		we use 'n+1' rather than 'n', to make it easier to tackle the boundary.
-		dp[i][sum] measn how many ways we choose from [0, i) i.e. [0,1,2,...,i-1] to sum up to 0.
-		*/
+    		we use 'n+1' rather than 'n', to make it easier to tackle the boundary.
+    		dp[i][sum] measn how many ways we choose from [0, i) 
+    		i.e. [0,1,2,...,i-1] to sum up to 0.
+    		*/
         int[][] dp = new int[nums.length+1][target + 1]; 
         
         dp[0][0] = 1;
