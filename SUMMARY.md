@@ -38,6 +38,7 @@
 * [Dynamic Programming](dynamic-programming/README.md)
   * [Classical questions](dynamic-programming/classical-questions/README.md)
     * [Longest increasing subsequence LIS](dynamic-programming/classical-questions/longest-increasing-subsequence-lis.md)
+    * [Shortest common supersequence](dynamic-programming/classical-questions/shortest-common-supersequence.md)
     * [Climbing stairs](dynamic-programming/classical-questions/climbing-stairs.md)
     * [Minimax](dynamic-programming/classical-questions/minimax/README.md)
       * [Guess Number Higher or Lower II](dynamic-programming/classical-questions/minimax/guess-number-higher-or-lower-ii.md)
