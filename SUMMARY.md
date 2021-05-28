@@ -62,6 +62,8 @@
 * [Java API](java-api/README.md)
   * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
   * [Java static](java-api/java-static.md)
+  * [Semaphore, lock](java-api/semaphore-lock/README.md)
+    * [Design bounded blocking queue](java-api/semaphore-lock/design-bounded-blocking-queue.md)
 * [System Design](system-design/README.md)
   * [General Concepts](system-design/general-concepts.md)
   * [6 general steps](system-design/6-general-steps.md)
