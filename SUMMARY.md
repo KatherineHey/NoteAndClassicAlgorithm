@@ -34,6 +34,8 @@
   * [Word break \(DFS VS DP\)](untitled/word-break-dfs-vs-dp.md)
   * [Partition to K Equal Sum Subsets](untitled/partition-to-k-equal-sum-subsets.md)
   * [DFS](untitled/dfs/README.md)
+    * [Android Unlock Patterns](untitled/dfs/android-unlock-patterns/README.md)
+      * [Show me the code :\)](untitled/dfs/android-unlock-patterns/show-me-the-code.md)
     * [Campus bike II](untitled/dfs/campus-bike-ii/README.md)
       * [Dijkstra](untitled/dfs/campus-bike-ii/dijkstra.md)
 * [Bit manipulation](bit-manipulation/README.md)
