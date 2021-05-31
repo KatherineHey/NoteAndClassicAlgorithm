@@ -2,7 +2,8 @@
 
 * [NoteAndClassicAlgorithm](README.md)
 * [Data structures](data-structures/README.md)
-  * [Boyer-Moore Majority Vote algorithm](data-structures/boyer-moore-majority-vote-algorithm.md)
+  * [Boyer-Moore Majority Vote algorithm](data-structures/boyer-moore-majority-vote-algorithm/README.md)
+    * [229. Majority Element II](data-structures/boyer-moore-majority-vote-algorithm/229.-majority-element-ii.md)
   * [LinkedList](data-structures/linkedlist/README.md)
     * [Operations insert, delete, reverse](data-structures/linkedlist/operations-insert-delete-reverse.md)
     * [Circular Josephus](data-structures/linkedlist/circular-doubly-linked-list.md)
