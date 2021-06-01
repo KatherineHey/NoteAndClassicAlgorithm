@@ -12,7 +12,7 @@
 
 
 
-1143. Longest Common SubsequenceMedium
+1143. Longest Common Subsequence
 
 Given two strings `text1` and `text2`, return _the length of their longest **common subsequence**._ If there is no **common subsequence**, return `0`.
 
