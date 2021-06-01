@@ -62,6 +62,7 @@
   * [Knapsack problem \(& 2D dp compression\)](dynamic-programming/knapsack-problem-and-2d-dp-compression.md)
   * [DP on strings](dynamic-programming/dp-on-strings.md)
   * [Decision Making](dynamic-programming/decision-making.md)
+  * [Best Time to Buy and Sell Stock III](dynamic-programming/best-time-to-buy-and-sell-stock-iii.md)
 * [Java API](java-api/README.md)
   * [Regex](java-api/regex.md)
   * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
