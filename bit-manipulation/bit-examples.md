@@ -12,7 +12,7 @@ public int countOnes (int n) {
 }
 ```
 
-
+it's easy to find that power of 4 numbers have those 3 common features.First,greater than 0.Second,only have one '1' bit in their binary notation,so we use x&\(x-1\) to delete the lowest '1',and if then it becomes 0,it prove that there is only one '1' bit.Third,the only '1' bit should be locate at the odd location
 
 ```java
 public boolean isPowerOfFour(int n) {
