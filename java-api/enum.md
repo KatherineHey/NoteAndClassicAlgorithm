@@ -2,7 +2,7 @@
 
 class Solution { private static final int BLOCKED = -1; private static final int UNEXPLORED = 0; private static final int PATH = 1; private static final int TARGET = 2; private static final int START = 3;
 
-```text
+```java
 public int findShortestPath(GridMaster master) {
     if (master.isTarget()) return 0;
 
