@@ -65,6 +65,7 @@
   * [Decision Making](dynamic-programming/decision-making.md)
   * [Best Time to Buy and Sell Stock III](dynamic-programming/best-time-to-buy-and-sell-stock-iii.md)
 * [Java API](java-api/README.md)
+  * [Enum](java-api/enum.md)
   * [Regex](java-api/regex.md)
   * [TreeMap and HashMap](java-api/treemap-and-hashmap.md)
   * [Java static](java-api/java-static.md)
