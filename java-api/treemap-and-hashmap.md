@@ -16,6 +16,13 @@ NavigableMap<Integer, String> treemap = new TreeMap<Integer, String>(
     Collections.reverseOrder());
 ```
 
+```java
+for (Map.Entry<Integer, HashSet<Integer>> entry : scores.entrySet()) {
+    HashSet<Integer> players = entry.getValue();
+    sumScore += players.size() * entry.getKey();
+}
+```
+
 LinkedHashMap
 
 insertion order
