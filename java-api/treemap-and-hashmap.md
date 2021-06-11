@@ -9,6 +9,13 @@
 for (TreeMap<Integer, PriorityQueue<Integer>> tm : m.values()) {
 ```
 
+```java
+// creating object of TreeMap with key of reverse order
+// treemap's order can only be based on key, not value
+NavigableMap<Integer, String> treemap = new TreeMap<Integer, String>(
+    Collections.reverseOrder());
+```
+
 LinkedHashMap
 
 insertion order
