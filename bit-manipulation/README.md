@@ -4,6 +4,12 @@
 
 At the heart of bit manipulation are the bit-wise operators & \(and\), \| \(or\), ~ \(not\) and ^ \(exclusive-or, xor\) and shift operators a &lt;&lt; b and a &gt;&gt; b.
 
+
+
+```text
+Integer.parseInt("1100110", 2) returns 102
+```
+
 Set union A \| B
 
 Set intersection A & B
