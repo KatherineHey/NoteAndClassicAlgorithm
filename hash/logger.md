@@ -15,6 +15,10 @@ Implement the `Logger` class:
 
 timeNew record the start time of the mapNew. mapNew keeps the messages of \[timeNew, timeNew +10\); mapOld keeps messages at most 20 seconds before.
 
+假设有个message是 \(a,9\), 下一个message是（a, 11）那么newCache只包含latest=11这个info 里面没有任何message 因为a不应该被print 已经return
+
+
+
 ```java
 class Logger {
     private Map<String, Integer> cacheOld;
