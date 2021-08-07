@@ -1,0 +1,31 @@
+# 465 Optimal account balancing
+
+
+
+```java
+public int minTransfers(int[][] transactions) {
+        Map<Integer, Integer> m = new HashMap<>();
+        for (int[] t : transactions) {
+            m.put(t[0], m.getOrDefault(t[0], 0) - t[2]);
+            m.put(t[1], m.getOrDefault(t[1], 0) + t[2]);
+        }
+        return settle(0, new ArrayList<>(m.values()));
+    }
+
+    int settle(int start, List<Integer> debt) {
+        while (start < debt.size() && debt.get(start) == 0)
+            start++;
+        if (start == debt.size()) return 0;
+        int r = Integer.MAX_VALUE;
+        for (int i = start + 1; i < debt.size(); i++)
+            if (debt.get(start) * debt.get(i) < 0) {
+                debt.set(i, debt.get(i) + debt.get(start));
+                r = Math.min(r, 1 + settle(start + 1, debt));
+                debt.set(i, debt.get(i) - debt.get(start));
+            }
+        return r;
+    }
+```
+
+170
+
