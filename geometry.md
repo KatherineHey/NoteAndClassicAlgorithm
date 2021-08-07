@@ -30,3 +30,5 @@ int orientation(Point p1, Point p2, Point p3)
   
 ```
 
+[https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/](https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/)
+
