@@ -4,22 +4,21 @@ description: Find the shortest path between two nodes.
 
 # Dijkstra's algorithm 两点之间最短路径
 
-I probably can't provide a better explanation than wiki, so here is wiki :\)
+I probably can't provide a better explanation than wiki, so here is wiki :)
 
-Note: 
+Note:&#x20;
 
 1. if you are looking for the shortest path from a to b, **AND all the weights are non-negative**, then you can end early as soon as you reach the target node b.
 2. Dijkstra provides the shortest path with a **fixed starting node**. If you need minimum spanning tree, then Kruskal fits better.
 
-| Dijkstra's algorithm to find the shortest path between a and b. It picks the unvisited vertex with the lowest distance, calculates the distance through it to each unvisited neighbor, and updates the neighbor's distance if smaller. Mark visited \(set to red\) when done with neighbors. |
-| :--- |
+| Dijkstra's algorithm to find the shortest path between a and b. It picks the unvisited vertex with the lowest distance, calculates the distance through it to each unvisited neighbor, and updates the neighbor's distance if smaller. Mark visited (set to red) when done with neighbors. |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
-
-|  |  |
-| :--- | :--- |
-| Class | [Search algorithm](https://en.wikipedia.org/wiki/Search_algorithm) [Greedy algorithm](https://en.wikipedia.org/wiki/Greedy_algorithm) [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)[\[1\]](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#cite_note-1) |
-| Data structure | [Graph](https://en.wikipedia.org/wiki/Graph_%28data_structure%29) Usually used with [Priority queue](https://en.wikipedia.org/wiki/Priority_queue)/[Heap](https://en.wikipedia.org/wiki/Heap_%28data_structure%29) for optimization |
-| [Worst-case](https://en.wikipedia.org/wiki/Best,_worst_and_average_case) [performance](https://en.wikipedia.org/wiki/Time_complexity) | Θ\(\|E\|+\|V\|log⁡\|V\|\)![{\displaystyle \Theta \(\|E\|+\|V\|\log \|V\|\)}](https://wikimedia.org/api/rest_v1/media/math/render/svg/e22162be85d06b346f3b7f7aad9746da0c1019c9) |
+|                                                                                                                                            |                                                                                                                                                                                                                                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Class                                                                                                                                      | <p><a href="https://en.wikipedia.org/wiki/Search_algorithm">Search algorithm</a><br><a href="https://en.wikipedia.org/wiki/Greedy_algorithm">Greedy algorithm</a><br><a href="https://en.wikipedia.org/wiki/Dynamic_programming">Dynamic programming</a><a href="https://en.wikipedia.org/wiki/Dijkstra&#x27;s_algorithm#cite_note-1">[1]</a></p> |
+| Data structure                                                                                                                             | <p><a href="https://en.wikipedia.org/wiki/Graph_(data_structure)">Graph</a><br>Usually used with <a href="https://en.wikipedia.org/wiki/Priority_queue">Priority queue</a>/<a href="https://en.wikipedia.org/wiki/Heap_(data_structure)">Heap</a> for optimization</p>                                                                            |
+| [Worst-case](https://en.wikipedia.org/wiki/Best,\_worst\_and\_average\_case) [performance](https://en.wikipedia.org/wiki/Time\_complexity) | Θ(\|E\|+\|V\|log⁡\|V\|)![{\displaystyle \Theta (\|E\|+\|V\|\log \|V\|)}](https://wikimedia.org/api/rest\_v1/media/math/render/svg/e22162be85d06b346f3b7f7aad9746da0c1019c9)                                                                                                                                                                       |
 
 ```java
 package graph;
@@ -142,4 +141,3 @@ public class MST_Dijkstra {
 }
 
 ```
-

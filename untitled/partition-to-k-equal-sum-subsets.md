@@ -2,19 +2,19 @@
 
 
 
-698. Partition to K Equal Sum Subsets
+698\. Partition to K Equal Sum Subsets
 
 Given an integer array `nums` and an integer `k`, return `true` if it is possible to divide this array into `k` non-empty subsets whose sums are all equal.
 
 **Example 1:**
 
-```text
+```
 Input: nums = [4,3,2,3,5,2,1], k = 4
 Output: true
 Explanation: It's possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3) with equal sums.
 ```
 
-The easiest solution to this problem is DFS. We try to place each element to one of the bucket. The following is a Java solution and there is a diagram to show the execution of the helper\(\) method using the given example. Note the improvement in the for loop.
+The easiest solution to this problem is DFS. We try to place each element to one of the bucket. The following is a Java solution and there is a diagram to show the execution of the helper() method using the given example. Note the improvement in the for loop.
 
 {% embed url="https://www.programcreek.com/2014/02/leetcode-partition-to-k-equal-sum-subsets-java/" %}
 
@@ -70,4 +70,3 @@ class Solution {
     }
 }
 ```
-

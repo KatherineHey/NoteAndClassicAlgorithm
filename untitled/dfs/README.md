@@ -2,7 +2,7 @@
 
 
 
-489. Robot Room CleanerHard
+489\. Robot Room CleanerHard
 
 Given a robot cleaner in a room modeled as a grid.
 
@@ -14,7 +14,7 @@ When it tries to move into a blocked cell, its bumper sensor detects the obstacl
 
 Design an algorithm to clean the entire room using only the 4 given APIs shown below.
 
-```text
+```
 interface Robot {
   // returns true if next cell is open and robot moves into the cell.
   // returns false if next cell is obstacle and robot stays on the current cell.
@@ -32,7 +32,7 @@ interface Robot {
 
 **Example:**
 
-```text
+```
 Input:
 room = [
   [1,1,1,1,1,0,1,1],
@@ -79,4 +79,3 @@ private static final int[][] directions = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
         robot.turnRight(); robot.turnRight();
     }
 ```
-

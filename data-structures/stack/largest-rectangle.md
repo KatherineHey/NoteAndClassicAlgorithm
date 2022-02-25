@@ -6,20 +6,20 @@ description: Mono stack
 
 
 
-84. Largest Rectangle in HistogramHard
+84\. Largest Rectangle in HistogramHard
 
 Given an array of integers `heights` representing the histogram's bar height where the width of each bar is `1`, return _the area of the largest rectangle in the histogram_.
 
 **Example 1:** ![](https://assets.leetcode.com/uploads/2021/01/04/histogram.jpg)
 
-```text
+```
 Input: heights = [2,1,5,6,2,3]
 Output: 10
 Explanation: The above is a histogram where width of each bar is 1.
 The largest rectangle is shown in the red area, which has an area = 10 units.
 ```
 
-说的简单一点就是对于每一个柱子，找到左边的比它短的i, 右边比他短的j，然后局部max就是\(j - i - 1\) \* h
+说的简单一点就是对于每一个柱子，找到左边的比它短的i, 右边比他短的j，然后局部max就是(j - i - 1) \* h
 
 ```java
 public int largestRectangleArea(int[] h) {
@@ -49,4 +49,3 @@ public int largestRectangleArea(int[] h) {
     return max;
 }
 ```
-

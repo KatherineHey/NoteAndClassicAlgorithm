@@ -2,7 +2,7 @@
 
 
 
-70. Climbing StairsEasy
+70\. Climbing StairsEasy
 
 You are climbing a staircase. It takes `n` steps to reach the top.
 
@@ -10,7 +10,7 @@ Each time you can either climb `1` or `2` steps. In how many distinct ways can y
 
 **Example 1:**
 
-```text
+```
 Input: n = 2
 Output: 2
 Explanation: There are two ways to climb to the top.
@@ -31,4 +31,3 @@ public int climbStairs(int n) {
     return dp[n];
 }
 ```
-

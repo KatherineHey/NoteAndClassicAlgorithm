@@ -1,8 +1,8 @@
 # BinarySearch
 
-find m that f\(mid\) is true. Or return the smallest number l such that condition\(left\) is true.
+find m that f(mid) is true. Or return the smallest number l such that condition(left) is true.
 
- **Minimize k , s.t. condition\(k\) is True**
+&#x20;**Minimize k , s.t. condition(k) is True**
 
 ```java
 def binary_search(left, right):
@@ -18,9 +18,9 @@ def binary_search(left, right):
   return left
 ```
 
-f\(mid\) 函数：判断mid是不是当前的解。 condition\(mid\) 函数：判断解是不是 &gt;= mid。
+f(mid) 函数：判断mid是不是当前的解。 condition(mid) 函数：判断解是不是 >= mid。
 
-f\(mid\) 是可选的，如果找到解，直接返回解。没有f\(mid\)也可以。 **如果省略f\(mid\)，那么循环结束后left存储是最小的能满足condition\(left\) = true 的数。**
+f(mid) 是可选的，如果找到解，直接返回解。没有f(mid)也可以。 **如果省略f(mid)，那么循环结束后left存储是最小的能满足condition(left) = true 的数。**
 
 
 
@@ -28,13 +28,13 @@ f\(mid\) 是可选的，如果找到解，直接返回解。没有f\(mid\)也可
 * Decide return value. Is it `return left` or `return left - 1`? Remember this: **after exiting the while loop, `left` is the minimal k​ satisfying the `condition` function**;
 * Design the `condition` function. This is the most difficult and most beautiful part. Needs lots of practice.
 
- As for the question "When can we use binary search?", my answer is that, **If we can discover some kind of monotonicity, for example, if `condition(k) is True` then `condition(k + 1) is True`, then we can consider binary search**.
+&#x20;As for the question "When can we use binary search?", my answer is that, **If we can discover some kind of monotonicity, for example, if `condition(k) is True` then `condition(k + 1) is True`, then we can consider binary search**.
 
 
 
-例子：sqrt\(x\), 返回x开根号后的整数部分。 样例： sqrt\(4\) = 2 sqrt\(8\) = 2
+例子：sqrt(x), 返回x开根号后的整数部分。 样例： sqrt(4) = 2 sqrt(8) = 2
 
-代码： sqrt\(x\)的**取值范围在 \[0, x\] 之间，所以l=0, r = x + 1, 搜索范围 \[0, x + 1\)**。
+代码： sqrt(x)的**取值范围在 \[0, x] 之间，所以l=0, r = x + 1, 搜索范围 \[0, x + 1)**。
 
 ```python
 def sqrt(x):
@@ -51,7 +51,7 @@ def sqrt(x):
   return l - 1
 ```
 
-套用模版：f\(m\) 没有，g\(m\) = m _m &gt; x。 循环结束后l为最小的数满足 l_ l &gt; x，第一个平方大于x的整数。所以sqrt\(x\) = l - 1，最后返回 l - 1。
+套用模版：f(m) 没有，g(m) = m _m > x。 循环结束后l为最小的数满足 l_ l > x，第一个平方大于x的整数。所以sqrt(x) = l - 1，最后返回 l - 1。
 
 ```java
 // first find the peek of the mountain
@@ -109,31 +109,30 @@ private long test(int n, int index, int a) {
 
 [https://www.topcoder.com/thrive/articles/Binary%20Search](https://www.topcoder.com/thrive/articles/Binary%20Search)
 
- You can verify that this satisfies our condition that the element we’re looking for always be present in the interval \(lo, hi\). However, there is another problem. Consider what happens when you run this code on some search space for which the predicate gives:  
-  
+&#x20;You can verify that this satisfies our condition that the element we’re looking for always be present in the interval (lo, hi). However, there is another problem. Consider what happens when you run this code on some search space for which the predicate gives:\
+\
 
 
 | no | yes |
-| :--- | :--- |
+| -- | --- |
 
-
-  
-The code will get stuck in a loop. It will always select the first element as mid, but then will not move the lower bound because it wants to keep the no in its search space. The solution is to change mid = lo + \(hi-lo\)/2 to mid = lo + \(hi-lo+1\)/2, i.e. so that it rounds up instead of down. There are other ways of getting around the problem, but this one is possibly the cleanest. Just remember to always test your code on a two-element set where the predicate is false for the first element and true for the second.
+\
+The code will get stuck in a loop. It will always select the first element as mid, but then will not move the lower bound because it wants to keep the no in its search space. The solution is to change mid = lo + (hi-lo)/2 to mid = lo + (hi-lo+1)/2, i.e. so that it rounds up instead of down. There are other ways of getting around the problem, but this one is possibly the cleanest. Just remember to always test your code on a two-element set where the predicate is false for the first element and true for the second.
 
 
 
 Each time we only do one of the two:
 
-```text
+```
 (1) if x is larger than all tails, append it, increase the size by 1
 (2) if tails[i-1] < x <= tails[i], update tails[i]
 ```
 
 Doing so will maintain the tails invariant. The the final answer is just the size.
 
-**Java \(binary search to find the ceiling: i/ left is the ceiling\)**
+**Java (binary search to find the ceiling: i/ left is the ceiling)**
 
-```text
+```
 public int lengthOfLIS(int[] nums) {
     int[] tails = new int[nums.length];
     int size = 0;
@@ -153,4 +152,3 @@ public int lengthOfLIS(int[] nums) {
 }
 // Runtime: 2 ms
 ```
-

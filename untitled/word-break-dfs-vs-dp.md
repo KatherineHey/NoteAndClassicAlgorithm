@@ -1,12 +1,12 @@
 ---
-description: 'This is a typical DP problem, but DFS solution is fascinating to checkout :)'
+description: This is a typical DP problem, but DFS solution is fascinating to checkout :)
 ---
 
-# Word break \(DFS VS DP\)
+# Word break (DFS VS DP)
 
 
 
-139. Word BreakMedium
+139\. Word BreakMedium
 
 Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` can be segmented into a space-separated sequence of one or more dictionary words.
 
@@ -14,7 +14,7 @@ Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` 
 
 **Example:**
 
-```text
+```
 Input: s = "leetcode", wordDict = ["leet","code"]
 Output: true
 Explanation: Return true because "leetcode" can be segmented as "leet code".
@@ -70,7 +70,7 @@ private boolean dfs(String s, int index, Set<String> dict, Set<Integer> set){
 }
 ```
 
-140. Word break II: get all the sequences from words in the dictionary
+140\. Word break II: get all the sequences from words in the dictionary
 
 ```java
 public List<String> wordBreak(String s, List<String> wordDict) {
@@ -90,4 +90,3 @@ public List<String> backtrack(String s, List<String> wordDict, Map<String,List<S
     return result;
 }
 ```
-

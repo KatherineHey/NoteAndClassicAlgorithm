@@ -4,15 +4,15 @@ description: 单调递增stack (aka. Mono stack)
 
 # Stack
 
-503. Next Greater Element II
+503\. Next Greater Element II
 
-Given a circular integer array `nums` \(i.e., the next element of `nums[nums.length - 1]` is `nums[0]`\), return _the **next greater number** for every element in_ `nums`.
+Given a circular integer array `nums` (i.e., the next element of `nums[nums.length - 1]` is `nums[0]`), return _the **next greater number** for every element in_ `nums`.
 
 The **next greater number** of a number `x` is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn't exist, return `-1` for this number.
 
 tip from Lee:
 
-Loop once, we can get the Next Greater Number of a normal array. 
+Loop once, we can get the Next Greater Number of a normal array.&#x20;
 
 Loop twice, we can get the Next Greater Number of a circular array
 
@@ -34,4 +34,3 @@ public int[] nextGreaterElements(int[] nums) {
     return numsNextGreater;
 }
 ```
-

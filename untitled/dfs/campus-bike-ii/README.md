@@ -1,6 +1,6 @@
 # Campus bike II
 
-1066. Campus Bikes IIMedium
+1066\. Campus Bikes IIMedium
 
 On a campus represented as a 2D grid, there are `N` workers and `M` bikes, with `N <= M`. Each worker and bike is a 2D coordinate on this grid.
 
@@ -39,4 +39,3 @@ public int manhattanDistance(int[] worker, int[] bike) {
     return Math.abs(worker[0] - bike[0]) + Math.abs(worker[1] - bike[1]);
 }
 ```
-

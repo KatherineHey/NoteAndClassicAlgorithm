@@ -1,6 +1,6 @@
 # Android Unlock Patterns
 
-351. Android Unlock PatternsMedium
+351\. Android Unlock PatternsMedium
 
 Android devices have a special lock screen with a `3 x 3` grid of dots. Users can set an "unlock pattern" by connecting the dots in a specific sequence, forming a series of joined line segments where each segment's endpoints are two consecutive dots in the sequence. A sequence of `k` dots is a **valid** unlock pattern if both of the following are true:
 
@@ -19,4 +19,3 @@ Here are some example valid and invalid unlock patterns:
 Given two integers `m` and `n`, return _the **number of unique and valid unlock patterns** of the Android grid lock screen that consist of **at least**_ `m` _keys and **at most**_ `n` _keys._
 
 Two unlock patterns are considered **unique** if there is a dot in one sequence that is not in the other, or the order of the dots is different.
-

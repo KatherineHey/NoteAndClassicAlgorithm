@@ -2,7 +2,7 @@
 
 
 
-1188. Design Bounded Blocking QueueMedium
+1188\. Design Bounded Blocking QueueMedium
 
 Implement a thread-safe bounded blocking queue that has the following methods:
 
@@ -17,7 +17,7 @@ Please do not use built-in implementations of bounded blocking queue as this wil
 
 **Example 1:**
 
-```text
+```
 Input:
 1
 1
@@ -46,7 +46,7 @@ queue.size();       // 2 elements remaining in the queue. size() is always calle
 
 **Example 2:**
 
-```text
+```
 Input:
 3
 4
@@ -81,4 +81,3 @@ Since the number of threads for producer/consumer is greater than 1, we do not k
 * `0 <= element <= 20`
 * The number of calls to `enqueue` is **greater than or equal to** the number of calls to `dequeue`.
 * At most `40` calls will be made to `enque`, `deque`, and `size`.
-

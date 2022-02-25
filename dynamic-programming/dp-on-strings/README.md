@@ -8,15 +8,15 @@
 
 #### Approach
 
-> Most of the problems on this pattern requires a solution that can be accepted in O\(n^2\) complexity.
+> Most of the problems on this pattern requires a solution that can be accepted in O(n^2) complexity.
 
 
 
-1143. Longest Common Subsequence
+1143\. Longest Common Subsequence
 
 Given two strings `text1` and `text2`, return _the length of their longest **common subsequence**._ If there is no **common subsequence**, return `0`.
 
-A **subsequence** of a string is a new string generated from the original string with some characters \(can be none\) deleted without changing the relative order of the remaining characters.
+A **subsequence** of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.
 
 * For example, `"ace"` is a subsequence of `"abcde"`.
 
@@ -24,7 +24,7 @@ A **common subsequence** of two strings is a subsequence that is common to both 
 
 **Example 1:**
 
-```text
+```
 Input: text1 = "abcde", text2 = "ace" 
 Output: 3  
 Explanation: The longest common subsequence is "ace" and its length is 3.
@@ -73,4 +73,3 @@ public String findLongestCommonSubsequence (String str1, String str2) {
         return dp[len1][len2];
     }
 ```
-

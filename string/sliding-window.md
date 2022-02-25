@@ -12,7 +12,7 @@ sliding window
 
 题目：
 
-76. Minimum Window Substring
+76\. Minimum Window Substring
 
 Given two strings `s` and `t`, return _the minimum window in `s` which will contain all the characters in `t`_. If there is no such window in `s` that covers all characters in `t`, return _the empty string `""`_.
 
@@ -20,14 +20,14 @@ Given two strings `s` and `t`, return _the minimum window in `s` which will cont
 
 **Example 1:**
 
-```text
+```
 Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
 ```
 
 答案
 
-```text
+```
 public String minWindow(String s, String t) {
     int[] tchars = new int[256];
 
@@ -70,7 +70,7 @@ Example
 
 
 
-239. Sliding Window Maximum
+239\. Sliding Window Maximum
 
 You are given an array of integers `nums`, there is a sliding window of size `k` which is moving from the very left of the array to the very right. You can only see the `k` numbers in the window. Each time the sliding window moves right by one position.
 
@@ -78,7 +78,7 @@ Return _the max sliding window_.
 
 **Example 1:**
 
-```text
+```
 Input: nums = [1,3,-1,-3,5,3,6,7], k = 3
 Output: [3,3,5,5,6,7]
 Explanation: 
@@ -138,5 +138,4 @@ public class MonotonicQueue {
 
 例题：求最小sub数组拥有相同个数0,1
 
-把0 变成 -1 ， 将 &lt;sum, idx&gt; 放入hashmap, 通过sum找之前是否见过。注意要先插入\(0,-1\) 相当于在开始之前已经见过0. 然后维护一个到目前为止的sum
-
+把0 变成 -1 ， 将 \<sum, idx> 放入hashmap, 通过sum找之前是否见过。注意要先插入(0,-1) 相当于在开始之前已经见过0. 然后维护一个到目前为止的sum

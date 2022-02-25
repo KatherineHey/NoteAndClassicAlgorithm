@@ -1,6 +1,6 @@
 # Cycle
 
-To detect a cycle in a directed graph, **we'll use a variation of** _**DFS**_ **traversal:**
+To detect a cycle in a directed graph, **we'll use a variation of **_**DFS**_** traversal:**
 
 * Pick up an unvisited vertex _v_ and mark its state as _beingVisited_
 * For each neighboring vertex _u_ of _v,_ check:
@@ -8,7 +8,7 @@ To detect a cycle in a directed graph, **we'll use a variation of** _**DFS**_ **
   * If _u_ is yet in an unvisited state, we'll recursively visit _u_ in a depth-first manner
 * Update the vertex _v_‘s _beingVisited_ flag to _false_ and its _visited_ flag to _true_
 
-Note that **all the vertices of our graph are initially in an unvisited state as both their** _**beingVisited**_ **and** _**visited**_ **flags are initialized with** _**false**_**.** 
+Note that **all the vertices of our graph are initially in an unvisited state as both their **_**beingVisited**_** and **_**visited**_** flags are initialized with **_**false**_**.**&#x20;
 
 ```java
 public boolean hasCycle(Vertex sourceVertex) {
@@ -34,4 +34,3 @@ Undirected graph
 I. union find
 
 II. dfs - pass in the parent node, then pick next vertex from neighbors who are not parent/ from node, keep a hashset for visited node, if then we run into any nodes that already exist in visited node hashset, then there's a cycle
-
