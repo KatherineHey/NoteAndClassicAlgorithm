@@ -1,5 +1,7 @@
 ---
-description: Find number of components in an undirected graph
+description: >-
+  Find number of components in an undirected graph. Every subset has a parent
+  that it points to.
 ---
 
 # Union Find
@@ -74,4 +76,3 @@ public class UF {
     }
 }
 ```
-
