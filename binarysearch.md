@@ -71,6 +71,24 @@ def sqrt(x):
 
 
 
+Given an array of integers `nums` which is sorted in ascending order, and an integer `target`, write a function to search `target` in `nums`. If `target` exists, then return its index. Otherwise, return `-1`.
+
+```
+public int search(int[] nums, int target) { int start = 0; int end = nums.length-1;
+    while (start < end) {
+        int mid = start + (end - start) / 2;
+        
+        if (nums[mid] < target) {
+            start = mid + 1;
+        } else {
+            end = mid;
+        }
+    }
+    
+    return nums[start] == target? start: -1;
+}
+```
+
 Another example to find the **largest** l that condition is true
 
 1802 Maximum Value at a Given Index in a Bounded Array
