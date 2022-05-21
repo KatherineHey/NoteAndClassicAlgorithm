@@ -1,5 +1,17 @@
 # BinarySearch
 
+
+
+My rule of thumb when it comes to binary search:
+
+1. Include **ALL** possible answers when initialize `lo` & `hi`
+2. Don't overflow the `mid` calculation
+3. Shrink boundary using a logic that will **exclude** mid
+4. Avoid infinity loop by picking the correct `mid` and shrinking logic
+5. Always think of the case when there are 2 elements left
+
+
+
 find m that f(mid) is true. Or return the smallest number l such that condition(left) is true.
 
 &#x20;**Minimize k , s.t. condition(k) is True**
