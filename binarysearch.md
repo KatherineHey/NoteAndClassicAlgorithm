@@ -101,6 +101,8 @@ public int search(int[] nums, int target) { int start = 0; int end = nums.length
 }
 ```
 
+反向用模板
+
 Another example to find the **largest** l that condition is true
 
 1802 Maximum Value at a Given Index in a Bounded Array
